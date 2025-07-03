@@ -1,6 +1,7 @@
 /*Crea una funcion recursiva que basado en un array de notas, te muestre el promedio*/
 
 let arregloNotas=[18,18,20,16,18,17]
+let resultado;
 
 function promedioNotas(notas, numero, acumulador=0){
   if(numero<notas.length){
